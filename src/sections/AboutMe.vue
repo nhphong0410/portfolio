@@ -27,7 +27,7 @@ import colors from "tailwindcss/colors.js";
           working with <span class="text-sky-500">React</span> and
           <span class="text-sky-500">NextJS</span> for over
           <span class="text-sky-500">two years</span>, building beautiful and
-          user-frendly web applications.
+          user-friendly web applications.
         </p>
         <p>
           &#128210; I am eager to learn new technologies and continuously improve my
