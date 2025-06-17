@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import HeroSection from "./sections/HeroSection.vue";
 import AboutMe from "./sections/AboutMe.vue";
+import Projects from "./sections/Projects.vue";
 import TechSet from "./sections/TechSet.vue";
 import { onMounted, onUnmounted, provide, ref } from "vue";
 
@@ -27,6 +28,7 @@ provide("isSmallScreen", isSmallScreen);
     <main class="w-full max-w-[1280px] mx-auto flex flex-col">
       <HeroSection />
       <AboutMe />
+      <Projects />
       <TechSet />
     </main>
   </div>
