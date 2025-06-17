@@ -2,7 +2,6 @@
 import { ref } from "vue";
 import InfiniteCarousel from "./Carousel/InfiniteCarousel.vue";
 
-// Define your project data
 const projects = ref([
   {
     id: 1,
@@ -34,6 +33,18 @@ const projects = ref([
       "Responsible for building the UI and integrating with the backend API.",
       "Discussed with the designer to clarify the design and make necessary adjustments before implementation.",
       "Collaborated with the backend team to ensure smooth integration and functionality.",
+    ],
+    isPersonal: false,
+  },
+  {
+    id: 3,
+    title: "Neowiz Event - Admin Website",
+    description:
+      "An admin website used for statistics and management of the event run by Neowiz.",
+    technologies: ["NextJS", "Redux Toolkit", "Tailwind CSS", "TypeScript"],
+    details: [
+      "Joined the project to provide urgent support.",
+      "Responsible for building the UI and integrating with the backend API, under the direction of the team leader.",
     ],
     isPersonal: false,
   },
