@@ -16,7 +16,7 @@ import TechList from "@/components/TechList.vue";
     id="tech-set"
     class="p-4 md:p-8 w-full mb-12 lg:mt-24 flex flex-col lg:flex-row lg:items-stretch"
   >
-    <div class="my-12 lg:flex-1 lg:my-0 order-1 lg:order-3">
+    <div class="my-12 lg:flex-1 lg:my-0">
       <div class="w-fit mx-auto px-2 py-10 lg:sticky lg:top-1/2">
         <SectionTitle
           primaryText="TECH"
@@ -25,7 +25,7 @@ import TechList from "@/components/TechList.vue";
         />
       </div>
     </div>
-    <div class="lg:flex-1 order-2 flex flex-col gap-8">
+    <div class="lg:flex-1 flex flex-col gap-8">
       <div>
         <p class="text-lg italic font-semibold text-center">
           Programming languages
