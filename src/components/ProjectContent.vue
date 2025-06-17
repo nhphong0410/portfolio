@@ -40,7 +40,7 @@ const projects = ref([
     id: 3,
     title: "Neowiz Event - Admin Website",
     description:
-      "An admin website used for statistics and management of an event run by Neowiz.",
+      "An admin website for statistics and management of a short-term event run by Neowiz.",
     technologies: ["NextJS", "Redux Toolkit", "Tailwind CSS", "TypeScript"],
     details: [
       "Joined the project to provide urgent support.",
